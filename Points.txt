@@ -1,0 +1,26 @@
+car_ID -> dropped
+symboling -> no change
+CarName -> only first name, converted to lowercase, LabelEncode
+fueltype -> OneHotEncode
+aspiration -> OneHotEncode
+doornumber -> OneHotEncode
+carbody -> LabelEncode
+drivewheel -> LabelEncode
+enginelocation -> OneHotEncode
+wheelbase -> no change
+carlength -> no change
+carwidth -> no change
+carheight -> no change
+curbweight -> no change
+enginetype -> LabelEncode
+cylindernumber -> converted to integer
+enginesize -> no change
+fuelsystem -> LabelEncode
+boreratio -> no change
+stroke -> no change
+compressionratio -> no change
+horsepower -> no change
+peakrpm -> no change
+citympg, highwaympg -> merges to 'mpg', 
+    and then dropped both the columns
+price -> Output
